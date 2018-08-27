@@ -20,7 +20,7 @@
 
 .page{
 	margin: 0;
-	background: grey;
+	background: #fcfcfc;
 	display: flex;
     justify-content: center;
     font-family: 'Russo One', sans-serif;
@@ -81,6 +81,7 @@ hr{
 .title-block{	
 	display: flex;
     justify-content: center;
+    padding-bottom: 20px;
 }
 .title-block h2{
 	text-align: center;
@@ -99,4 +100,11 @@ hr{
 body .slick-initialized .slick-slide{
     display: flex;
     justify-content: center;
+}
+li{
+	display: block;
+}
+.slick-dots{
+	display: flex;
+	justify-content: center;
 }
