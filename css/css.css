@@ -19,4 +19,11 @@
 
 .page{
 	margin: 0;
+	background: grey;
+}
+.center{
+	display: flex;
+	max-width: 1300px;
+	background: white;
+	height: 2000px;
 }
