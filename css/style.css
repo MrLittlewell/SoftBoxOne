@@ -22,6 +22,7 @@
 	margin: 0;
 	background: #fcfcfc;
 	display: flex;
+	flex-wrap: wrap;
     justify-content: center;
     font-family: 'Russo One', sans-serif;
 }
@@ -31,6 +32,18 @@
     justify-content: center;
     flex-direction: column;
     align-items: center
+}
+.move-header{
+	background: white;
+	position: fixed;
+	z-index: 10;
+	height: 60px;
+	width: 100%;
+	box-shadow: 0px 10px 11px -4px #000000;
+	
+}
+.logo-size{
+	transform: translate(-540px, 14px) Scale(0.4);
 }
 .center-header img{
 	padding: 10px 0;
@@ -50,6 +63,9 @@
   	padding: 10px 20px 0;
   	color: black;
   	font-size: 20px;
+  }
+  .ancor-menu-position{
+	transform: translate(0px, -77px);
   }
   .anim-menu{
   	animation: menu-anim 2s linear;
@@ -74,9 +90,9 @@ hr{
 	display: flex;
 	flex-direction: column;
 	max-width: 1300px;
-	width: 1200px;
+	width: 100vw;
 	background: white;
-	height: 2000px;
+	
 }
 .title-block{	
 	display: flex;
@@ -107,4 +123,54 @@ li{
 .slick-dots{
 	display: flex;
 	justify-content: center;
+}
+/*Контент*/
+.center-two-block{
+	display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;		
+}
+.two-block-content{
+	text-align: center;
+	color: grey;
+	width: 900px;
+	height: 100px;
+}
+.circles-box{
+	display: flex;
+	flex-wrap: wrap;
+	width: 799px;	
+    justify-content: center;
+}
+.circle-one, .circle-two, .circle-three, .circle-four, .circle-five, .circle-six{
+	border: 3px solid #30b3b7;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin: 10px 15px;
+}
+.gray-info-area{
+	display: flex;
+	flex-direction: column;
+	background: #bdc0c2;
+	height: 270px;
+	margin-top: 50px;
+	
+}
+.gray-info-area-first{
+	text-align: center;
+	color: white;
+}
+.gray-info-area-first h3{
+	margin: 20px 0;
+}
+.gray-info-area-second{
+	display: flex;
+    justify-content: space-evenly;	
+	color: white;
+}
+
+.link-border-radius{
+	border-radius: 50%;
 }
