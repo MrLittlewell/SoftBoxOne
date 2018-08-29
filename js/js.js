@@ -30,7 +30,7 @@ jQuery(document).ready(function($) {
 	var						 
 		$window = $(window), 						 
 		$target = $("#logo-move"),						 
-		$h = 180; // Задаю координаты верха на котором надо фиксировать						 
+		$h = 180; 					 
 		$window.on('scroll', function() {									
 	var scrollTop = window.pageYOffset || document.documentElement.scrollTop;									
 		if (scrollTop > $h) {						 
@@ -44,7 +44,7 @@ jQuery(document).ready(function($) {
 	var						 
 		$window = $(window), 						 
 		$target = $("#nav-ancor"),						 
-		$h = 180; // Задаю координаты верха на котором надо фиксировать						 
+		$h = 180; 					 
 		$window.on('scroll', function() {									
 	var scrollTop = window.pageYOffset || document.documentElement.scrollTop;									
 		if (scrollTop > $h) {						 
@@ -53,4 +53,5 @@ jQuery(document).ready(function($) {
 					$target.removeClass("ancor-menu-position");
 					}
 					});				
-});											 
+});		
+								 
