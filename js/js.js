@@ -1,4 +1,4 @@
-$(function(){
+jQuery(document).ready(function(){
 	$('.slider').slick({
 	  dots: true,
 	  infinite: true,
@@ -12,7 +12,7 @@ $(function(){
 	  	  
 	});	
 });
-jQuery(document).ready(function($) {
+$(function() {
 	var						 
 		$window = $(window), 						 
 		$target = $("#nav"),						 
@@ -26,7 +26,7 @@ jQuery(document).ready(function($) {
 					}
 					});	
 });
-jQuery(document).ready(function($) {
+$(function($) {
 	var						 
 		$window = $(window), 						 
 		$target = $("#logo-move"),						 
@@ -40,7 +40,7 @@ jQuery(document).ready(function($) {
 					}
 					});				
 });	
-jQuery(document).ready(function($) {
+$(function($) {
 	var						 
 		$window = $(window), 						 
 		$target = $("#nav-ancor"),						 
@@ -54,4 +54,10 @@ jQuery(document).ready(function($) {
 					}
 					});				
 });		
+$(function () {
+  $('[data-toggle="popover"]').popover()
+});
+$("img").mousedown(function(){
+    return false;
+});
 								 

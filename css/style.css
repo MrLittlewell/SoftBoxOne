@@ -180,6 +180,9 @@ li{
 .link-border-radius{
 	border-radius: 50%;
 }
-.modal-content{
-	transform: translate(0vh, 25vw);
+.modal.show .modal-dialog{
+	transform: translate(0vw, 50vh);
+}
+.btn {
+	padding: 0;
 }
