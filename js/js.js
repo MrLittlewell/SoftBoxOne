@@ -60,4 +60,17 @@ $(function () {
 $("img").mousedown(function(){
     return false;
 });
-								 
+$(function($) {
+	var						 
+		$window = $(window), 						 
+		$target = $("#object"),						 
+		$h = 1100; 					 
+		$window.on('scroll', function() {									
+	var scrollTop = window.pageYOffset || document.documentElement.scrollTop;									
+		if (scrollTop > $h) {						 
+			$target.addClass("slideUp");						 
+				} else {     
+					$target.removeClass("slideUp");
+					}
+					});				
+});	
