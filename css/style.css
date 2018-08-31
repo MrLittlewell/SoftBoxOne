@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Russo+One');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
 	
@@ -159,7 +160,6 @@ li{
 	display: flex;
 	flex-direction: column;
 	background: #bdc0c2;
-	height: 270px;
 	margin-top: 50px;
 	width: 100%;
 	
@@ -175,6 +175,8 @@ li{
 	display: flex;
     justify-content: space-evenly;	
 	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 20px;
 }
 
 .link-border-radius{
@@ -192,6 +194,10 @@ li{
 .services{
 	display: flex;
 	margin: 30px 0;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.services button{
+	font-size: 24px;
 }
 .yellow{
 	border: 3px solid #FFD358;
