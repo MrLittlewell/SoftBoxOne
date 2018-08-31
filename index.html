@@ -1,22 +1,27 @@
-<!doctype html>
+<!DOCTYPE>
 <html lang="en">
 	<head>
 		<title>APR Soft - Web студия</title>
 		<meta charset="utf-8">
-		 <link rel="shortcut icon" href="images/icon3.png" type="image/x-icon">
+		<link rel="shortcut icon" href="images/icon3.png" type="image/x-icon">
     	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-   		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-		<link rel="stylesheet" href="css/style.css" >	
-		<link rel="stylesheet" type="text/css" href="css/slick.css">
-		<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>		
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		<link rel="stylesheet" href="css/animations.css">
+   		<link type="text/css" rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<link type="text/css" rel="stylesheet" href="css/style.css" >	
+		<link type="text/css" rel="stylesheet" type="text/css" href="css/slick.css">
+		<link type="text/css" rel="stylesheet" type="text/css" href="css/slick-theme.css"/>		
+		<!<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<link type="text/css" rel="stylesheet" href="css/animations.css">
+		<script src="js/jquery.js"></script>
 	</head>
 	<body class="page">
 	
 	<div id="nav" class="center-header">	
 		<a href="#"><img id="logo-move" class="header-image-fade" src="images/aprs.png" alt="logo" width="180px"></a>
-		<div id="nav-ancor" class="menu-ancor"><a class="anim-menu" href="#">О нас</a><a class="anim-menu" href="#">Наши клиенты</a><a class="anim-menu" href="#">Услуги</a><a class="anim-menu" href="#">Контакты</a>
+		<div id="nav-ancor" class="menu-ancor">
+		<a class="anim-menu about-one" href="#about">О нас</a>
+		<a class="anim-menu" href="index.html#client">Наши клиенты</a>
+		<a class="anim-menu" href="index.html#oservices">Услуги</a>
+		<a class="anim-menu" href="index.html#contact">Контакты</a>
 		</div>		
 	</div>
 		<div class="center">			
@@ -26,13 +31,13 @@
 			</div>
 			<div class="slider">
 				<div><img src="images/inth.jpg" alt=""></div>
-				<div><img src="images/aqp.jpg" alt=""></div>
-				<div><img src="images/ltw.jpg" alt=""></div>
 				<div><img src="images/apr.jpg" alt=""></div>
+				<div><img src="images/ltw.jpg" alt=""></div>
+				<div><img src="images/aqp.jpg" alt=""></div>				
 			</div>
 			<div class="center-first-info">	
 				<hr class="text-middle-line">		
-				<div class="title-block"><h2>Клиенты</h2></div>
+				<div class="title-block" id="client"><h2>Клиенты</h2></div>
 			</div>	
 			<div class="center-two-block">				
 				<div class="two-block-content">
@@ -62,7 +67,7 @@
 				</div>			
 			</div>
 		</div>
-			<div class="gray-info-area">
+			<div class="gray-info-area" id="gradient">
 				<div class="gray-info-area-first">
 				<h3>Надо тут что-то придумать!</h3>
 				</div>
@@ -110,7 +115,7 @@
 			<div class="center">
 				<div class="center-first-info">	
 					<hr class="text-middle-line">		
-					<div class="title-block"><h2>Услуги</h2></div>
+					<div class="title-block" id="oservices"><h2>Услуги</h2></div>
 				</div>	
 				<div class="center-two-block">
 					<div class="two-block-content">
@@ -136,7 +141,7 @@
 				</div>
 				<div class="center-first-info">	
 					<hr class="text-middle-line">		
-					<div class="title-block"><h2>О нас</h2></div>
+					<div class="title-block" id="about"><h2>О нас</h2></div>
 				</div>	
 				
 			</div>

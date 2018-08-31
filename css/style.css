@@ -215,3 +215,8 @@ li{
 	
 	visibility: hidden;
 }
+#gradient{
+  width: 100%;
+  padding: 0px;
+}
+.about-one{}
